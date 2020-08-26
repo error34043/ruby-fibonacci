@@ -9,5 +9,6 @@ def fibs(n)
       result.push(result[-1] + result [-2])
     end
   end
-  result
+  result_str = result.join(', ')
+  puts "The first #{n} places of the Fibonacci sequence is/are: #{result_str}."
 end
